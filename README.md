@@ -4,4 +4,5 @@ Output Screen shot
 
 Tech Stack used : HTML | CSS
 Live site URL : https://nandagopal030.github.io/FM-blog-preview-card/
-Live Code URL : 
+Live Code URL : https://www.frontendmentor.io/solutions/blog-preview-card-using-html-css-OtT-riJJXs
+
