@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Blog preview card</title>
+
+
+  <style>
+    body {
+      background-color: #f5d04e;
+    }
+
+    .main-card {
+      position: fixed;
+      inset: 0px;
+      height: 29rem;
+      width: 21rem;
+      background-color: rgb(255, 255, 255);
+      max-width: 100vw;
+      max-height: 100vh;
+      margin: auto;
+      border-radius: 20px;
+      border: 1px solid black;
+      box-shadow: 6px 8px;
+      font-family: 'Figtree', sans-serif;
+    }
+
+    .inner-card {
+      padding: 18px;
+      inset: 8px;
+    }
+
+    .inner-card>img {
+      border-radius: 11px;
+      width: 100%;
+      display: block;
+    }
+
+    .text-contents {
+      margin: 7px 0px 0px 20px;
+    }
+
+    .learning-status {
+      background-color: #f5d04e;
+      padding: 4px;
+      height: 18px;
+      width: 64px;
+      border-radius: 2px;
+      font-weight: bold;
+    }
+
+    .learning-status>p {
+      margin: 2px;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .publish>p {
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .combined-paragraph>p {
+      margin: 0;
+      color: gray;
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .parent-contents {
+      display: flex;
+    }
+
+    .picture>img {
+      height: 27px;
+      width: 27px;
+      margin-top: 16px;
+    }
+
+    .name {
+      margin: 10px 10px;
+      font-weight: 800;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main-card">
+    <div class="inner-card">
+      <img src="./assets/images/illustration-article.svg" alt="illustration-article">
+    </div>
+    <div class="text-contents">
+      <div class="learning-status">
+        <p>Learning</p>
+      </div>
+      <div class="publish">
+        <p>Published 21 Dec 2023</p>
+      </div>
+      <h3>HTML & CSS foundations</h3>
+      <div class="combined-paragraph">
+
+        <p>These launguages are the backbone of every</p>
+        <p>website, defining structure, content and</p>
+        <p>presentation.</p>
+      </div>
+      <div class="parent-contents">
+        <div class="picture">
+          <img src="./assets/images/image-avatar.webp" alt="image-avatar">
+        </div>
+        <div class="name">
+          <p>Greg Hooper</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
